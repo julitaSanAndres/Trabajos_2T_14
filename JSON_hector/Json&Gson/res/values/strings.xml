@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Json&amp;Gson</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="text_tittle_principal">Actividad JSON &amp; GSON</string>
+    <string name="text_description_app">Esta aplicacion nos mostrara el funcionamiento de los JSON y GSON, que sirven para la persistencia de datos, pulse el botón para iniciar la aplicación</string>
+    <string name="text_btn_start_app">Iniciar</string>
+    <string name="title_activity_second">Second</string>
+    <string name="text_tittle_second">Insertar datos de la persona</string>
+    <string name="text_nombre">&quot;Nombre &quot;</string>
+    <string name="text_ape_1">"Primer Apellido "</string>
+    <string name="text_ape_2">"Segundo Apellido "</string>
+    <string name="text_esquema_json">Esquema JSON:</string>
+    <string name="text_datos_introducidos">Datos Introducidos:</string>
+
+</resources>
