@@ -101,9 +101,12 @@ public class Second extends Activity {
 	public String addObjectJsontoArray(){
 		JSONObject persona = new JSONObject();
 		try {
-			persona.put("nombre", personas.getPersonas().get(personas.getPersonas().size()-1).getNombre().toString());
-			persona.put("ape1", personas.getPersonas().get(personas.getPersonas().size()-1).getApellido1().toString());
-			persona.put("ape2", personas.getPersonas().get(personas.getPersonas().size()-1).getApellido2()).toString();
+			persona.put("nombre", 
+					personas.getPersonas().get(personas.getPersonas().size()-1).getNombre().toString());
+			persona.put("ape1",
+					personas.getPersonas().get(personas.getPersonas().size()-1).getApellido1().toString());
+			persona.put("ape2",
+					personas.getPersonas().get(personas.getPersonas().size()-1).getApellido2()).toString();
 			
 			
 			
