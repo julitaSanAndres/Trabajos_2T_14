@@ -29,6 +29,7 @@ public class ModificarDatos extends Activity {
 		modNotas = (EditText) findViewById(R.id.editTextNotas);
 
 		// Creamos la base de datos de personas y la abrimos para leer y escribir
+		// el 1 es el id del registro que queremos modificar
 		databasePersonas = new BaseDatosPersonas(this, "personas.db", null, 1);
 		SQLitedb = databasePersonas.getWritableDatabase();
 
