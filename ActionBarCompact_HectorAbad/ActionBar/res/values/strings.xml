@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ReservaBillete</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="seleccion_opcion">"Seleccione una opcion para su billete : "</string>
+    <string name="seleccion_ciudada_origen">Ciudad de origen(drcha)   y ciudad destino(izda) :</string>
+    <string name="seleccion_ciudad_destino">Seleccione ciudad de destino :</string>
+    <string name="fecha_salida">Fecha de salida:</string>
+    <string name="fecha_llegada">Fecha de llegada :</string>
+    <string name="acabar_operacion">Confirmar Billete</string>
+    <string-array name="ciudades">
+        <item >Ávila</item>
+        <item >Burgos</item>
+        <item >León</item>
+        <item >Palencia</item>
+        <item >Salamanca</item>
+        <item >Segovia</item>
+        <item >Soria</item>
+        <item >Valladolid</item>
+        <item >Zamora</item>
+    </string-array>
+        <string name="fecha_salida_hint">Salida</string>
+        <string name="fecha_llegada_hint">Llegada</string>
+        <string name="ida">Ida</string>
+        <string name="idayvuelta">Ida y Vuelta</string>
+        <string name="resultado"></string>
+        <string name="menu_guardar">Guardar</string>
+        <string name="localizacion">localizacion</string>
+        <string name="actualizar">actualizar</string>
+        <string name="buscar">buscar</string>
+        <string name="guardar">Guardar</string>
+        <string name="ver">Ver</string>
+
+</resources>

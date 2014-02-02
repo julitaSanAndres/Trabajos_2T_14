@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:com.datohosting.ejemploactionbar="http://schemas.android.com/apk/res-auto" >
+    
+	<item
+        android:id="@+id/menu2_buscar"
+        android:title="@string/menu_buscar"
+        android:icon="@drawable/ic_action_search"
+        com.datohosting.ejemploactionbar:showAsAction="ifRoom|withText"/>
+    
+    <item
+        android:id="@+id/menu2_cortar"
+        android:title="@string/menu_cortar"
+		android:icon="@drawable/ic_action_cut"
+        com.datohosting.ejemploactionbar:showAsAction="ifRoom|withText"/>
+    
+    <item
+        android:id="@+id/menu2_copiar"
+        android:title="@string/menu_copiar"
+		android:icon="@drawable/ic_action_copy"
+        com.datohosting.ejemploactionbar:showAsAction="ifRoom|withText"/>
+    
+    <item
+        android:id="@+id/menu2_eliminar"
+        android:title="@string/menu_eliminar"
+		android:icon="@drawable/ic_action_delete"
+        com.datohosting.ejemploactionbar:showAsAction="ifRoom|withText"/>
+    
+    <item
+        android:id="@+id/menu2_compartir"
+        android:title="@string/menu_compartir"
+		android:icon="@drawable/ic_action_share"
+        com.datohosting.ejemploactionbar:showAsAction="ifRoom|withText"/>
+    
+</menu>

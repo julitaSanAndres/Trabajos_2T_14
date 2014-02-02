@@ -1,0 +1,26 @@
+<menu 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:com.datohosting.ejemploactionbar="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/menu1_buscar"
+        android:title="@string/menu_buscar"/>
+    
+    <item
+        android:id="@+id/menu1_cortar"
+        android:title="@string/menu_cortar"/>
+    
+    <item
+        android:id="@+id/menu1_copiar"
+        android:title="@string/menu_copiar"/>
+    
+    <item
+        android:id="@+id/menu1_eliminar"
+        android:title="@string/menu_eliminar"/>
+    
+    <item
+        android:id="@+id/menu1_compartir"
+        android:title="@string/menu_compartir"
+        />
+    
+</menu>

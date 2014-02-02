@@ -1,0 +1,34 @@
+<resources>
+
+    <style name="ThemeSpinner" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    
+    
+    
+    <style name="ThemePersonalizado" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:actionBarTabStyle">@style/ActionBarTabStyle</item>
+        <item name="android:actionBarStyle">@style/ActionBarSolid</item>
+        <item name="android:actionModeCloseButtonStyle">@style/ActionButtonCloseMode</item>
+        <item name="android:actionBarItemBackground">@drawable/selectable_background_example</item>
+        <item name="android:actionModeBackground">@drawable/cab_background_top_example</item>
+        <item name="android:actionModeSplitBackground">@drawable/cab_background_bottom_example</item>
+    </style>
+
+    <style name="ActionBarSolid" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/ab_solid_example</item>
+        <item name="android:backgroundStacked">@drawable/ab_stacked_solid_example</item>
+        <item name="android:backgroundSplit">@drawable/ab_bottom_solid_example</item>
+    </style>
+
+    <style name="ActionBarTabStyle" parent="@style/Widget.AppCompat.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_indicator_ab_example</item>
+    </style>
+    
+    <style name="ActionButtonCloseMode" parent="@style/Widget.AppCompat.ActionButton.CloseMode">
+        <item name="android:background">@drawable/btn_cab_done_example</item>
+    </style>
+    
+    <color name="pressed_example">#CCFFBB33</color>
+
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:com.datohosting.ejemploactionbar="http://schemas.android.com/apk/res-auto" >
+    
+	<item
+        android:id="@+id/menu4_compartir"
+        android:title="@string/menu_compartir"
+        com.datohosting.ejemploactionbar:showAsAction="ifRoom"
+        com.datohosting.ejemploactionbar:actionProviderClass="android.support.v7.widget.ShareActionProvider"/>
+    
+</menu>

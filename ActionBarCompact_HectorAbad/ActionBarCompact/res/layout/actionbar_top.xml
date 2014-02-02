@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="contentDescription"
+    android:baselineAligned="false"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+    
+    <LinearLayout 
+		android:layout_width="fill_parent"
+		android:layout_height="match_parent"
+		android:layout_weight="1">
+		<ImageView
+	        android:layout_width="fill_parent"
+	        android:layout_height="match_parent"
+	        android:layout_gravity="left"
+	        android:paddingTop="8dp"
+	        android:paddingRight="20dp"
+	        android:paddingBottom="8dp"
+			android:src="@drawable/ic_launcher"/>
+	</LinearLayout>
+    
+    
+    
+    
+    <LinearLayout 
+		android:layout_width="fill_parent"
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+		android:orientation="horizontal">
+		
+		<ImageButton
+	    	android:id="@+id/cortar"
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="match_parent"
+	    	android:layout_weight="1"
+	    	android:gravity="center"
+	    	android:src="@drawable/ic_action_cut"/>
+		
+		<ImageButton
+	    	android:id="@+id/copiar"
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="match_parent"
+	    	android:layout_weight="1"
+	    	android:gravity="center"
+	    	android:src="@drawable/ic_action_copy"/>
+		
+		<ImageButton
+	    	android:id="@+id/eliminar"
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="match_parent"
+	    	android:layout_weight="1"
+	    	android:gravity="center"
+	    	android:src="@drawable/ic_action_delete"/>
+    </LinearLayout>
+
+</LinearLayout>
