@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SoapApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="txv_titulo">Conversor de temperatura:</string>
+    <string name="txt_cf">ºC -> ºF</string>
+    <string name="txt_fc">ºF -> ºC</string>
+    <string name="hint_value">Indique el valor a convertir</string>
+    <string name="txt_btn">Convertir</string>
+    <color name="color_blue">#0000ff</color>
+    <string name="txt_btn_color">Cambia el color del fondo</string>
+    <color name="color_blue_light">#4F94CD</color>
+    <color name="color_orange">#FF9900</color>
+    <color name="color_withe">#FFFFFF</color>
+
+</resources>
