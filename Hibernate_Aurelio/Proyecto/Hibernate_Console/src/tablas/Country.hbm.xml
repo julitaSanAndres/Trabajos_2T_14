@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 04-feb-2014 1:46:59 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="tablas.Country" table="COUNTRY">
+        <id name="code" type="java.lang.String">
+            <column name="CODE" />
+            <generator class="assigned" />
+        </id>
+        <property name="name" type="java.lang.String">
+            <column name="NAME" />
+        </property>
+        <property name="continent" type="java.lang.String">
+            <column name="CONTINENT" />
+        </property>
+        <property name="region" type="java.lang.String">
+            <column name="REGION" />
+        </property>
+        <property name="surfaceArea" type="float">
+            <column name="SURFACEAREA" />
+        </property>
+        <property name="indepYear" type="java.lang.Short">
+            <column name="INDEPYEAR" />
+        </property>
+        <property name="population" type="int">
+            <column name="POPULATION" />
+        </property>
+        <property name="lifeExpectancy" type="java.lang.Float">
+            <column name="LIFEEXPECTANCY" />
+        </property>
+        <property name="gnp" type="java.lang.Float">
+            <column name="GNP" />
+        </property>
+        <property name="gnpold" type="java.lang.Float">
+            <column name="GNPOLD" />
+        </property>
+        <property name="localName" type="java.lang.String">
+            <column name="LOCALNAME" />
+        </property>
+        <property name="governmentForm" type="java.lang.String">
+            <column name="GOVERNMENTFORM" />
+        </property>
+        <property name="headOfState" type="java.lang.String">
+            <column name="HEADOFSTATE" />
+        </property>
+        <property name="capital" type="java.lang.Integer">
+            <column name="CAPITAL" />
+        </property>
+        <property name="code2" type="java.lang.String">
+            <column name="CODE2" />
+        </property>
+    </class>
+</hibernate-mapping>
